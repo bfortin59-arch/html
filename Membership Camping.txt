@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Camping Forms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Camping information and required forms for groups visiting Fort Duffield in West Point, Kentucky.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0; font-size: 1.9rem; }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7; padding: 0.75rem 0.9rem; margin: 1.2rem 0;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html" class="active">Support</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <header class="page-header">
+    <h1>Camping Forms</h1>
+    <p>Information and required forms for groups wishing to camp at Fort Duffield.</p>
+  </header>
+
+  <section class="content">
+
+    <h2>Camping at a Historic Site</h2>
+    <p>
+      Fort Duffield offers a rare opportunity for scout troops, reenactors, and educational groups to camp 
+      inside a preserved Civil War landscape. The quiet ridgeline, the deep woods, and the earthworks 
+      themselves create an atmosphere that is both peaceful and deeply connected to the past. 
+    </p>
+
+    <p>
+      Camping here is more than an overnight stay — it is a chance to experience the terrain as the soldiers 
+      once did. The steep climb, the commanding overlook of West Point, and the isolation of the ridge 
+      help visitors understand why the Union Army chose this site and what life was like for the men who 
+      built and defended the fort.
+    </p>
+
+    <div class="callout">
+      Overnight camping helps support the fort’s mission by encouraging outdoor education, historical 
+      awareness, and responsible stewardship of the land.
+    </div>
+
+    <h2>Who Can Camp at Fort Duffield</h2>
+    <p>
+      Camping is available to:
+    </p>
+    <ul>
+      <li>Scout troops (BSA, Girl Scouts, Trail Life, etc.)</li>
+      <li>School groups and educational programs</li>
+      <li>Historical reenactment units</li>
+      <li>Veterans’ groups and heritage organizations</li>
+      <li>Other community groups with prior approval</li>
+    </ul>
+
+    <h2>What to Expect</h2>
+    <p>
+      The camping area is rustic and intentionally preserved to maintain the historic character of the site. 
+      Groups should be prepared for:
+    </p>
+    <ul>
+      <li>Primitive camping conditions</li>
+      <li>No electricity or running water at the campsite</li>
+      <li>Pack‑in/pack‑out expectations</li>
+      <li>Respect for earthworks, trails, and memorial areas</li>
+      <li>Quiet hours to preserve the natural setting</li>
+    </ul>
+
+    <h2>Why Forms Are Required</h2>
+    <p>
+      Because Fort Duffield is a historic site maintained entirely by volunteers, camping forms help ensure 
+      that groups understand the rules, safety expectations, and preservation guidelines. These forms also 
+      help the Friends of Fort Duffield coordinate schedules, prepare the site, and provide support when needed.
+    </p>
+
+    <h2>Download Camping Forms</h2>
+    <p>
+      Please download and complete the following forms:
+    </p>
+
+    <ul>
+      <li><a href="/files/camping-application.pdf">Camping Application (PDF)</a></li>
+      <li><a href="/files/camping-rules.pdf">Camping Rules & Guidelines (PDF)</a></li>
+      <li><a href="/files/liability-waiver.pdf">Liability Waiver (PDF)</a></li>
+    </ul>
+
+    <h2>Submitting Your Forms</h2>
+    <p>
+      Completed forms may be mailed to:
+    </p>
+
+    <p><strong>Friends of Fort Duffield  
+    P.O. Box 82  
+    West Point, KY 40177</strong></p>
+
+    <p>
+      You may also email scanned forms to  
+      <a href="mailto:info@fortduffield.com">info@fortduffield.com</a>.
+    </p>
+
+    <h2>Questions?</h2>
+    <p>
+      If your group has special needs or would like to schedule a guided program during your stay, 
+      please contact us. We are happy to help make your visit meaningful and memorable.
+    </p>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Membership</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Become a member of the Friends of Fort Duffield and support preservation, education, and community history.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0; font-size: 1.9rem; }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7; padding: 0.75rem 0.9rem; margin: 1.2rem 0;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html" class="active">Support</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <header class="page-header">
+    <h1>Membership</h1>
+    <p>Join the Friends of Fort Duffield and help preserve Kentucky’s largest and best‑preserved Civil War earthen fort.</p>
+  </header>
+
+  <section class="content">
+
+    <h2>Why Membership Matters</h2>
+    <p>
+      Fort Duffield stands today because generations of volunteers refused to let it fade into the hillside. 
+      Becoming a member of the Friends of Fort Duffield connects you to that legacy. Your support helps maintain 
+      the fort’s earthworks, preserve the memorial cemetery, fund educational programs, and keep this historic 
+      site open to the public.
+    </p>
+
+    <div class="callout">
+      Membership is one of the most direct ways to protect the fort, honor the soldiers who built it, and ensure 
+      that future generations can walk these grounds and understand their story.
+    </div>
+
+    <h2>Membership Levels</h2>
+    <ul>
+      <li><strong>Individual – $20/year</strong>  
+        Supports general maintenance and preservation.</li>
+      <li><strong>Family – $35/year</strong>  
+        Ideal for households who enjoy hiking, events, and volunteer days.</li>
+      <li><strong>Supporting – $75/year</strong>  
+        Helps fund interpretive signage, school programs, and research.</li>
+      <li><strong>Patron – $150/year</strong>  
+        Provides major support for restoration projects and trail upkeep.</li>
+    </ul>
+
+    <h2>How to Join</h2>
+    <p>
+      Membership is simple. Download the form below, complete your information, and mail it with your dues to:
+    </p>
+
+    <p><strong>Friends of Fort Duffield  
+    P.O. Box 82  
+    West Point, KY 40177</strong></p>
+
+    <p>
+      You may also bring your completed form to any volunteer day or event at the fort.
+    </p>
+
+    <h2>Download Membership Form</h2>
+    <p>
+      <a href="/files/membership-form.pdf">Click here to download the Membership Form (PDF)</a>
+    </p>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
+
+
+
+
