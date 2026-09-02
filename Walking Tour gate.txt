@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Walking Tour</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Begin your walking tour of Fort Duffield. Explore eight interpretive stations that reveal the history, landscape, and daily life of the soldiers who built Kentucky’s largest Civil War earthen fort.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0; font-size: 1.9rem; }
+    .qr-summary {
+      background: #fffdf7; border-left: 4px solid var(--accent);
+      padding: 0.75rem 1rem; margin-bottom: 1.5rem;
+    }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .station-list li { margin-bottom: 0.5rem; }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/walking-tour.html" class="active">Walking Tour</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Walking Tour</h1>
+    <p>Explore eight interpretive stations that reveal the story of Fort Duffield, its soldiers, and its landscape.</p>
+  </header>
+
+  <!-- QR-Style Summary -->
+  <div class="qr-summary">
+    <strong>Quick Summary:</strong><br>
+    This self-guided walking tour leads you through the key features of Fort Duffield, Kentucky’s largest Civil War earthen fort. 
+    Each station highlights a different part of the fort’s construction, purpose, and daily life. 
+    Follow the marked trail to experience the same terrain the soldiers climbed in 1861.
+  </div>
+
+  <section class="content">
+
+    <h2>Walking Tour Map</h2>
+    <!-- Insert Walking Tour Map here -->
+
+    <h2>About the Trail</h2>
+    <p>
+      The walking tour follows the original military road and the interior of the fort. 
+      The terrain is steep in places — just as it was for the soldiers who built it. 
+      The trail is approximately one mile and includes eight interpretive stations.
+    </p>
+
+    <h2>Visitor Guidance</h2>
+    <ul>
+      <li><strong>Trail Difficulty:</strong> Moderate. Steep sections near the Gate and Overlook.</li>
+      <li><strong>Footing:</strong> Uneven ground, exposed roots, and seasonal mud.</li>
+      <li><strong>Stay on the trail:</strong> The earthworks are fragile and irreplaceable.</li>
+      <li><strong>Water:</strong> Bring your own; no potable water on site.</li>
+      <li><strong>Weather:</strong> The ridge is exposed — conditions can change quickly.</li>
+    </ul>
+
+    <h2>Introduction to the Fort</h2>
+    <p>
+      Fort Duffield was constructed in the fall and winter of 1861–62 by Union troops stationed at West Point, Kentucky. 
+      Its purpose was to protect the vital supply line running from the Ohio River to Elizabethtown and beyond. 
+      The fort’s position on the ridge offered a commanding view of the confluence of the Salt and Ohio Rivers, 
+      making it a strategic point of defense.
+    </p>
+
+    <p>
+      The soldiers who built the fort endured harsh weather, disease, and the physical strain of cutting roads, 
+      digging earthworks, and hauling timber up the steep hillside. 
+      Their work remains visible today in the preserved walls, ditches, and terraces of the fort.
+    </p>
+
+    <h2>The Eight Stations</h2>
+    <ul class="station-list">
+      <li><a href="/walking-tour/station-1-gate.html">Station One – The Gate</a></li>
+      <li><a href="/walking-tour/station-2-south-wall.html">Station Two – South Wall</a></li>
+      <li><a href="/walking-tour/station-3-deck.html">Station Three – Deck</a></li>
+      <li><a href="/walking-tour/station-4-cannons.html">Station Four – Cannons</a></li>
+      <li><a href="/walking-tour/station-5-central-area.html">Station Five – Central Area</a></li>
+      <li><a href="/walking-tour/station-6-overlook.html">Station Six – Overlook</a></li>
+      <li><a href="/walking-tour/station-7-spring.html">Station Seven – Spring</a></li>
+      <li><a href="/walking-tour/station-8-keeping-warm.html">Station Eight – Keeping Warm</a></li>
+    </ul>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
+
+
+

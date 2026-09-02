@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Timeline 1861–1862</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A chronological timeline of events surrounding the construction and occupation of Fort Duffield during the Civil War.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    .tagline { margin: 0.15rem 0 0; font-size: 0.9rem; opacity: 0.9; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0; font-size: 1.9rem; }
+    .timeline-entry {
+      background: #ffffff;
+      border-left: 4px solid var(--accent);
+      padding: 0.9rem 1rem;
+      margin: 1rem 0;
+    }
+    .timeline-date {
+      font-weight: bold;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+      justify-content: space-between; align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html" class="active">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/walking-tour.html">Walking Tour</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/events.html">Events</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Timeline 1861–1862</h1>
+    <p>A chronological look at the events surrounding Fort Duffield’s construction and early occupation.</p>
+  </header>
+
+  <section class="content">
+
+    <div class="timeline-entry">
+      <div class="timeline-date">September 1861</div>
+      Union forces arrive in West Point to secure the river landing and supply route.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">October 1861</div>
+      Soldiers begin cutting the military road up the ridge.  
+      Work starts on the fort’s earthworks.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">November 1861</div>
+      Construction intensifies.  
+      The 9th Michigan Infantry takes the lead in shaping the walls and ditches.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">December 1861</div>
+      Winter sets in.  
+      Disease spreads rapidly through the camp.  
+      The Memorial Cemetery begins to fill.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">January 1862</div>
+      The fort nears completion.  
+      Artillery positions are prepared along the ridge.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">February 1862</div>
+      Union forces shift southward following victories at Fort Henry and Fort Donelson.  
+      Fort Duffield’s strategic importance begins to decline.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">Spring 1862</div>
+      Most troops leave West Point.  
+      The fort remains as a defensive fallback position but is no longer heavily manned.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">Summer 1862</div>
+      Guerrilla activity increases in the region.  
+      Small detachments continue to monitor the supply line.
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-date">Late 1862</div>
+      The fort is largely abandoned as the war shifts deeper into the South.
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Station Two: South Wall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Walking Tour Station Two – The South Wall. Explore the defensive earthworks that protected the southern approach to Fort Duffield.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .qr-summary {
+      background: #fffdf7; border-left: 4px solid var(--accent);
+      padding: 0.75rem 1rem; margin-bottom: 1.5rem;
+    }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .map-box {
+      background: #ffffff;
+      border: 2px dashed var(--accent-light);
+      padding: 1rem;
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7;
+      padding: 0.75rem 1rem;
+      margin: 1.2rem 0;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/walking-tour.html" class="active">Walking Tour</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Station Two – South Wall</h1>
+    <p>The defensive earthworks guarding the southern approach to the fort.</p>
+  </header>
+
+  <!-- QR-Style Summary -->
+  <div class="qr-summary">
+    <strong>Quick Summary:</strong><br>
+    This section of the fort protected the southern slope, one of the most vulnerable approaches to the ridge. 
+    The earthworks you see are original, shaped by Union soldiers in 1861. 
+    Their height, angle, and placement were designed to slow or stop an attacking force.
+  </div>
+
+  <section class="content">
+
+    <h2>You Are Here</h2>
+    <div class="map-box">
+      <!-- Insert small “You Are Here” map for Station Two -->
+      <em>Map Placeholder: Station Two highlighted on Walking Tour map</em>
+    </div>
+
+    <h2>Historic Photo</h2>
+    <!-- Insert historic photo of the South Wall earthworks here -->
+
+    <h2>Visitor Guidance</h2>
+    <ul>
+      <li><strong>Trail Difficulty:</strong> Moderate; uneven ground along the wall.</li>
+      <li><strong>Stay off the earthworks:</strong> They are original and easily damaged.</li>
+      <li><strong>Look for:</strong> The angle of the wall and the depth of the ditch.</li>
+      <li><strong>Seasonal Note:</strong> Leaves may obscure the wall’s height in fall.</li>
+    </ul>
+
+    <h2>The Fort’s Defensive Backbone</h2>
+    <p>
+      The South Wall formed one of the primary defensive lines of Fort Duffield. 
+      Soldiers shaped this wall by digging a ditch and piling the earth upward to create a parapet. 
+      The steep slope below made this an ideal defensive position, forcing any attacker to climb uphill under fire.
+    </p>
+
+    <p>
+      The wall’s height and thickness were calculated to stop musket fire and provide cover for defenders. 
+      Soldiers could fire over the top while remaining protected from return fire. 
+      The ditch in front added another obstacle, slowing attackers and exposing them to defenders above.
+    </p>
+
+    <h2>Engineering on the Ridge</h2>
+    <!-- Insert photo of ditch and parapet here -->
+
+    <p>
+      Civil War engineers understood the value of terrain. 
+      Here, the natural slope of the ridge worked in the Union’s favor. 
+      By adding an earthen wall and ditch, they transformed the hillside into a formidable barrier.
+    </p>
+
+    <p>
+      Earthworks like these were faster to build than stone or timber fortifications and could absorb artillery fire more effectively. 
+      Even today, the wall retains much of its original shape — a testament to the soldiers’ labor and the durability of earthen defenses.
+    </p>
+
+    <h2>Life Along the Wall</h2>
+    <p>
+      Soldiers stationed here spent long hours on guard duty, watching the valley below for signs of movement. 
+      Although no major attack ever reached Fort Duffield, the men remained vigilant. 
+      The South Wall was a quiet but essential part of the fort’s daily routine.
+    </p>
+
+    <div class="callout">
+      <strong>Look for:</strong> The curve of the wall as it follows the ridge, the depth of the ditch, and the way the earthworks blend into the natural terrain.
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
+
+
+
+

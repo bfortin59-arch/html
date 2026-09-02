@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Station Three: The Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Walking Tour Station Three – The Deck. Learn how this elevated platform provided visibility, communication, and control within the fort.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .qr-summary {
+      background: #fffdf7; border-left: 4px solid var(--accent);
+      padding: 0.75rem 1rem; margin-bottom: 1.5rem;
+    }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .map-box {
+      background: #ffffff;
+      border: 2px dashed var(--accent-light);
+      padding: 1rem;
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7;
+      padding: 0.75rem 1rem;
+      margin: 1.2rem 0;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/walking-tour.html" class="active">Walking Tour</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Station Three – The Deck</h1>
+    <p>An elevated platform used for observation, communication, and command.</p>
+  </header>
+
+  <!-- QR-Style Summary -->
+  <div class="qr-summary">
+    <strong>Quick Summary:</strong><br>
+    This platform served as a lookout point and command area within the fort. 
+    From here, officers could observe troop movements, monitor the walls, and communicate across the ridge. 
+    The Deck offered one of the best vantage points inside the fort.
+  </div>
+
+  <section class="content">
+
+    <h2>You Are Here</h2>
+    <div class="map-box">
+      <!-- Insert small “You Are Here” map for Station Three -->
+      <em>Map Placeholder: Station Three highlighted on Walking Tour map</em>
+    </div>
+
+    <h2>Historic Photo</h2>
+    <!-- Insert historic photo or sketch of interior fort structures here -->
+
+    <h2>Visitor Guidance</h2>
+    <ul>
+      <li><strong>Trail Difficulty:</strong> Easy; mostly level ground inside the fort.</li>
+      <li><strong>Watch footing:</strong> Roots and uneven surfaces near the platform.</li>
+      <li><strong>Look outward:</strong> The Deck offers views toward the South Wall and central area.</li>
+    </ul>
+
+    <h2>A Place of Command</h2>
+    <p>
+      The Deck was an elevated platform built to give officers a clear view of the fort’s interior and the surrounding terrain. 
+      From here, they could direct work details, oversee guard rotations, and monitor the defensive walls. 
+      In a fort built quickly and under harsh conditions, having a central vantage point was essential.
+    </p>
+
+    <h2>Communication Hub</h2>
+    <!-- Insert photo of interior fort area here -->
+
+    <p>
+      Before radios or telephones, communication relied on line-of-sight, runners, and signal flags. 
+      The Deck provided a place where officers could relay orders quickly across the fort. 
+      Its height made it easier to see approaching wagons, supply trains, or messengers coming up the military road.
+    </p>
+
+    <h2>Daily Life Around the Deck</h2>
+    <p>
+      The area around the Deck would have been busy with activity. 
+      Soldiers gathered here for instructions, work assignments, and updates from officers. 
+      The platform also served as a vantage point for watching the valley below — a welcome distraction during long, quiet days on the ridge.
+    </p>
+
+    <div class="callout">
+      <strong>Look for:</strong> The raised ground where the platform once stood and the sightlines it offered across the fort.
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Station Three: The Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Walking Tour Station Three – The Deck. Learn how this elevated platform provided visibility, communication, and control within the fort.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .qr-summary {
+      background: #fffdf7; border-left: 4px solid var(--accent);
+      padding: 0.75rem 1rem; margin-bottom: 1.5rem;
+    }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .map-box {
+      background: #ffffff;
+      border: 2px dashed var(--accent-light);
+      padding: 1rem;
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7;
+      padding: 0.75rem 1rem;
+      margin: 1.2rem 0;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/walking-tour.html" class="active">Walking Tour</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Station Three – The Deck</h1>
+    <p>An elevated platform used for observation, communication, and command.</p>
+  </header>
+
+  <!-- QR-Style Summary -->
+  <div class="qr-summary">
+    <strong>Quick Summary:</strong><br>
+    This platform served as a lookout point and command area within the fort. 
+    From here, officers could observe troop movements, monitor the walls, and communicate across the ridge. 
+    The Deck offered one of the best vantage points inside the fort.
+  </div>
+
+  <section class="content">
+
+    <h2>You Are Here</h2>
+    <div class="map-box">
+      <!-- Insert small “You Are Here” map for Station Three -->
+      <em>Map Placeholder: Station Three highlighted on Walking Tour map</em>
+    </div>
+
+    <h2>Historic Photo</h2>
+    <!-- Insert historic photo or sketch of interior fort structures here -->
+
+    <h2>Visitor Guidance</h2>
+    <ul>
+      <li><strong>Trail Difficulty:</strong> Easy; mostly level ground inside the fort.</li>
+      <li><strong>Watch footing:</strong> Roots and uneven surfaces near the platform.</li>
+      <li><strong>Look outward:</strong> The Deck offers views toward the South Wall and central area.</li>
+    </ul>
+
+    <h2>A Place of Command</h2>
+    <p>
+      The Deck was an elevated platform built to give officers a clear view of the fort’s interior and the surrounding terrain. 
+      From here, they could direct work details, oversee guard rotations, and monitor the defensive walls. 
+      In a fort built quickly and under harsh conditions, having a central vantage point was essential.
+    </p>
+
+    <h2>Communication Hub</h2>
+    <!-- Insert photo of interior fort area here -->
+
+    <p>
+      Before radios or telephones, communication relied on line-of-sight, runners, and signal flags. 
+      The Deck provided a place where officers could relay orders quickly across the fort. 
+      Its height made it easier to see approaching wagons, supply trains, or messengers coming up the military road.
+    </p>
+
+    <h2>Daily Life Around the Deck</h2>
+    <p>
+      The area around the Deck would have been busy with activity. 
+      Soldiers gathered here for instructions, work assignments, and updates from officers. 
+      The platform also served as a vantage point for watching the valley below — a welcome distraction during long, quiet days on the ridge.
+    </p>
+
+    <div class="callout">
+      <strong>Look for:</strong> The raised ground where the platform once stood and the sightlines it offered across the fort.
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
