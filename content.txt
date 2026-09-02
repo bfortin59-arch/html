@@ -1,0 +1,15 @@
+<header class="page-header">
+  <h1>How Fort Duffield Got Its Name</h1>
+  <p>The story behind the fort’s namesake…</p>
+</header>
+
+<section class="content">
+  <h2>Early West Point</h2>
+  <p>…</p>
+</section>
+
+
+
+
+
+
