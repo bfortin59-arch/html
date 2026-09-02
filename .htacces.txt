@@ -1,0 +1,8 @@
+# Disable directory indexing for security
+Options -Indexes
+
+# Turn off all rewrite rules (prevents WordPress or old rules from interfering)
+RewriteEngine Off
+
+# Serve index.html as the default homepage
+DirectoryIndex index.html
