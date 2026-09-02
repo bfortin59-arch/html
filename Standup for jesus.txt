@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Stand Up for Jesus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The story of the Civil War hymn 'Stand Up for Jesus' and its connection to the soldiers who served near Fort Duffield.">
+
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222;
+      --accent: #7b3f00;
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--accent); color: #fff; padding: 0.75rem 1rem; }
+    .site-title { margin: 0; font-size: 1.4rem; }
+    .tagline { margin: 0.15rem 0 0; font-size: 0.9rem; opacity: 0.9; }
+    nav ul {
+      list-style: none; padding: 0; margin: 0.5rem 0 0;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+    }
+    nav a { color: #fff; padding: 0.25rem 0.5rem; border-radius: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.16); }
+    .active { background: var(--accent-light); color: #1b1208; }
+    main {
+      max-width: var(--max-width); margin: 1.5rem auto 2.5rem; padding: 0 1rem;
+    }
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+    }
+    .page-header h1 { margin: 0; font-size: 1.9rem; }
+    .content h2 {
+      margin-top: 1.5rem; font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light); padding-left: 0.5rem;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7;
+      padding: 0.75rem 0.9rem;
+      margin: 1.2rem 0;
+      font-size: 0.96rem;
+    }
+    footer {
+      background: #222; color: #ddd; padding: 1rem; font-size: 0.85rem;
+    }
+    .footer-inner {
+      max-width: var(--max-width); margin: 0 auto; padding: 0 1rem;
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+      justify-content: space-between; align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div style="max-width: var(--max-width); margin: 0 auto;">
+    <h1 class="site-title">Fort Duffield</h1>
+    <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/history.html" class="active">History</a></li>
+        <li><a href="/education.html">Education</a></li>
+        <li><a href="/walking-tour.html">Walking Tour</a></li>
+        <li><a href="/support.html">Support</a></li>
+        <li><a href="/events.html">Events</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <h1>Stand Up for Jesus</h1>
+    <p>The Civil War hymn that inspired soldiers and echoed through camps like Fort Duffield.</p>
+  </header>
+
+  <section class="content">
+
+    <h2>A Hymn Born in Turbulent Times</h2>
+    <p>
+      “Stand Up for Jesus” was written in 1858, just three years before the Civil War erupted.  
+      Its message of courage, steadfastness, and moral conviction resonated deeply with soldiers on both sides of the conflict.  
+      For Union troops stationed at Fort Duffield, the hymn offered comfort during hardship and a reminder of home.
+    </p>
+
+    <h2>Why Soldiers Sang It</h2>
+    <!-- Insert historic image of Civil War camp worship here -->
+
+    <p>
+      Camp worship was a central part of Civil War soldier life.  
+      Chaplains, visiting ministers, or even fellow soldiers led services that included prayer, scripture reading, and hymn singing.  
+      “Stand Up for Jesus” became one of the most popular hymns of the era because its themes matched the soldiers’ daily reality:
+    </p>
+
+    <ul>
+      <li>Standing firm in the face of danger</li>
+      <li>Persevering through hardship</li>
+      <li>Finding strength beyond oneself</li>
+      <li>Facing fear with courage</li>
+    </ul>
+
+    <h2>Connection to Fort Duffield</h2>
+    <p>
+      While no specific record ties the hymn directly to a documented service at Fort Duffield,  
+      the men stationed here experienced the same conditions as soldiers across the Union Army —  
+      cold nights, sickness, exhaustion, and uncertainty.  
+      Hymns like this one were sung around campfires, in makeshift shelters, and during moments of reflection.
+    </p>
+
+    <h2>A Song of Hope</h2>
+    <p>
+      For many soldiers, music was a lifeline.  
+      It reminded them of family, church, and the world they hoped to return to.  
+      “Stand Up for Jesus” became a symbol of perseverance — a message that carried them through the winter of 1861–62.
+    </p>
+
+    <div class="callout">
+      <strong>Note:</strong> Because the hymn is copyrighted in some modern editions, only historical context is provided here.
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.</div>
+    <div>West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
