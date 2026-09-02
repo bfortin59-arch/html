@@ -1,0 +1,151 @@
+/* ================================
+   GLOBAL RESET & BASE STYLES
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f4f1ec;
+  color: #2b2b2b;
+  line-height: 1.7;
+  padding-bottom: 50px;
+}
+
+/* ================================
+   HEADER
+================================ */
+
+header {
+  background-color: #3c3c3c;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 6px solid #8b6f47;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ================================
+   NAVIGATION
+================================ */
+
+nav ul {
+  list-style: none;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #8b6f47;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #a88a63;
+}
+
+/* ================================
+   MAIN CONTENT
+================================ */
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d6c9b8;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #4a3b24;
+  border-left: 6px solid #8b6f47;
+  padding-left: 12px;
+}
+
+section p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+section ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+section ul li a {
+  color: #4a3b24;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid #8b6f47;
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+
+section ul li a:hover {
+  color: #8b6f47;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #3c3c3c;
+  border-top: 6px solid #8b6f47;
+  font-size: 0.9rem;
+}
+
+/* ================================
+   MOBILE RESPONSIVENESS
+================================ */
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  nav a {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+}
