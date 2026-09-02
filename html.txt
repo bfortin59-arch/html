@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fort Duffield – Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Brief description of this page for search and sharing.">
+
+  <!-- Basic typography and layout -->
+  <style>
+    :root {
+      --bg: #f5f2e9;
+      --text: #222222;
+      --accent: #7b3f00;   /* earth/brown – Civil War/fort feel */
+      --accent-light: #c89a5b;
+      --link: #004b7a;
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    header {
+      background: var(--accent);
+      color: #ffffff;
+      padding: 0.75rem 1rem;
+    }
+
+    .site-title {
+      margin: 0;
+      font-size: 1.4rem;
+      letter-spacing: 0.04em;
+    }
+
+    .tagline {
+      margin: 0.15rem 0 0;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 3px;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background: rgba(255, 255, 255, 0.16);
+      text-decoration: none;
+    }
+
+    .active {
+      background: var(--accent-light);
+      color: #1b1208;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 1.5rem auto 2.5rem;
+      padding: 0 1rem;
+    }
+
+    .page-header {
+      border-bottom: 3px solid var(--accent-light);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-header h1 {
+      margin: 0;
+      font-size: 1.9rem;
+    }
+
+    .page-header p {
+      margin: 0.4rem 0 0;
+      font-size: 0.98rem;
+      color: #444;
+    }
+
+    .content {
+      font-size: 1rem;
+    }
+
+    .content h2 {
+      margin-top: 1.5rem;
+      font-size: 1.3rem;
+      border-left: 4px solid var(--accent-light);
+      padding-left: 0.5rem;
+    }
+
+    .content h3 {
+      margin-top: 1.1rem;
+      font-size: 1.1rem;
+    }
+
+    .content p {
+      margin: 0.6rem 0;
+    }
+
+    .content ul,
+    .content ol {
+      margin: 0.4rem 0 0.9rem 1.3rem;
+    }
+
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: #fffdf7;
+      padding: 0.75rem 0.9rem;
+      margin: 1.2rem 0;
+      font-size: 0.96rem;
+    }
+
+    footer {
+      background: #222222;
+      color: #dddddd;
+      padding: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .footer-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-inner a {
+      color: #f0f0f0;
+    }
+
+    @media (max-width: 700px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .page-header h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site header and navigation -->
+  <header>
+    <div style="max-width: var(--max-width); margin: 0 auto;">
+      <h1 class="site-title">Fort Duffield</h1>
+      <p class="tagline">Civil War Fort • West Point, Kentucky</p>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/visit.html">Visit</a></li>
+          <li><a href="/history.html" class="active">History</a></li>
+          <li><a href="/education.html">Education</a></li>
+          <li><a href="/support.html">Support</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main page content -->
+  <main>
+    <header class="page-header">
+      <h1>Page Title Goes Here</h1>
+      <p>Optional short intro line—what this page is about in one sentence.</p>
+    </header>
+
+    <section class="content">
+      <p>
+        This is your main content area. You can paste in your Fort Duffield text,
+        tour descriptions, timelines, or educational material here.
+      </p>
+
+      <h2>Section Heading</h2>
+      <p>
+        Use headings to break the story into clear sections—arrival, the fort’s
+        purpose, soldiers’ lives, preservation, and so on.
+      </p>
+
+      <div class="callout">
+        <strong>Did you know?</strong> You can use this callout style for key facts,
+        directions, or quick tips for visitors.
+      </div>
+
+      <h3>Subheading Example</h3>
+      <ul>
+        <li>Key point one about this topic.</li>
+        <li>Key point two—maybe a date or name.</li>
+        <li>Key point three—what visitors should remember.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        &copy; <span id="year"></span> Friends of Fort Duffield. All rights reserved.
+      </div>
+      <div>
+        Fort Duffield • West Point, Kentucky • <a href="mailto:info@fortduffield.com">info@fortduffield.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

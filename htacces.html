@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Boy Soldier – Fort Duffield</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Fort Duffield</h1>
+  <nav>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/history/history-main.html">History</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>The Boy Soldier</h2>
+
+  <p>Among the most poignant stories connected to Fort Duffield is that of the young boys who served in the Union Army. Some were musicians, some were messengers, and others enlisted as full soldiers despite their age.</p>
+
+  <p>One such boy, whose memory is preserved at Fort Duffield, represents the thousands of underage volunteers who answered the call during the Civil War. Their courage, vulnerability, and sacrifice remain a powerful reminder of the human cost of the conflict.</p>
+
+  <p>This page honors their service and invites visitors to reflect on the experiences of children thrust into the hardships of war.</p>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Fort Duffield.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
+# Disable directory indexing for security
+Options -Indexes
+
+# Turn off all rewrite rules (prevents WordPress or old rules from interfering)
+RewriteEngine Off
+
+# Serve index.html as the default homepage
+DirectoryIndex index.html
